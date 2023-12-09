@@ -7,17 +7,17 @@ Run these commands from your host machine, not your server.
 ## Testing your frontend
 
 ```bash
-curl http://146.190.12.184
+curl http://24.199.73.62
 ```
 
 ## Testing your backend
 
 ```bash
-curl http://146.190.12.184/hey
+curl http://24.199.73.62/hey
 ```
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
   -d '{"message": "Hello from your server"}' \
-  http://146.190.12.184/echo
+  http://24.199.73.62/echo
 ```
